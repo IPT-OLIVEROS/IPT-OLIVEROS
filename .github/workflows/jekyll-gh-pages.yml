@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./IPT-OLIVEROS/docs/ # Specify the path to your Jekyll site's source
+          source: /IPT-OLIVEROS/docs/ # Specify the path to your Jekyll site's source
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
